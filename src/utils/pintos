@@ -609,6 +609,7 @@ sub print_bochs_disk_line {
 	print BOCHSRC "$device: type=disk, path=$disk, mode=flat, ";
 	print BOCHSRC "cylinders=$geom{C}, heads=$geom{H}, spt=$geom{S}, ";
 	print BOCHSRC "translation=none\n";
+    
     }
 }
 
